@@ -41,7 +41,7 @@ const data = [
 	{
 		book: "JS", History: 2020
 	}, {
-		book: "C#", History: 2023
+		book: "C#", History: 2022
 	}
 ]
 
@@ -50,7 +50,7 @@ let myBook = data.filter(value => value.History > 2010).filter(value => value.bo
 console.log(myBook);
 
 
-let friendbook = data.filter(value => value.History > 2010).filter(value => value.book == "C#").forEach(value => {
+let friendbook = data.filter(item => item.History > 2010).filter(value => value.book == "C#").forEach(value => {
 	return value.History = 2010
 })
 console.log(friendbook);
