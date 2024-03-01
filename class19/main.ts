@@ -42,9 +42,9 @@ const data = [
 		book: "C#", price: 3000
 	}
 ];
-let newData=data.reduce((curr,val)=>{
-	return curr+val.price
-},0)
+let newData = data.reduce((curr, val) => {
+	return curr + val.price
+}, 0)
 console.log(newData);
 
 
@@ -54,7 +54,6 @@ let numPrices = prices.reduce((val, curr) => {
 	return val + curr
 }, 0)
 console.log(numPrices);
-
 
 let num2 = [1, 2, 4, 5];
 let num3 = [...num2];
